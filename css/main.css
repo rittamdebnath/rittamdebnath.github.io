@@ -1,0 +1,303 @@
+.blue {
+  color: #4aa3df; }
+
+.purple {
+  color: #9b59b6; }
+
+.asphalt {
+  color: #34495e; }
+
+.green {
+  color: #1abc9c; }
+
+.orange {
+  color: #e74c3c; }
+
+.cloud {
+  color: #ecf0f1; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.text-center {
+  text-align: center; }
+
+.text-justify {
+  text-align: justify; }
+
+.m00 {
+  margin: 0 auto; }
+
+.mb20 {
+  margin-bottom: 20px; }
+
+.mb60 {
+  margin-bottom: 60px; }
+
+.mb70 {
+  margin-bottom: 70px; }
+
+.mb80 {
+  margin-bottom: 80px; }
+
+.mb90 {
+  margin-bottom: 90px; }
+
+.ml10 {
+  margin-left: 10px; }
+
+.lh2 {
+  line-height: 2.2; }
+
+.width50 {
+  width: 50%; }
+
+.width100 {
+  width: 100%; }
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  color: #34495e;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none;
+  color: #34495e; }
+
+h1 {
+  margin: 0; }
+
+.wrap {
+  width: 750px;
+  padding: 100px 0; }
+
+.title {
+  display: table; }
+  .title .main-title {
+    float: left;
+    padding-right: 40px; }
+    .title .main-title h1 {
+      font-size: 44px;
+      font-weight: 400;
+      font-line-height: 1.2; }
+    .title .main-title p {
+      font-size: 28px;
+      font-weight: 300;
+      font-style: italic;
+      float: right; }
+  .title .work-title {
+    float: right;
+    padding: 40px 0 0 40px;
+    border-left: 2px solid #34495e; }
+    .title .work-title p {
+      font-size: 38px;
+      font-weight: lighter; }
+
+.closet {
+  padding-top: 100px;
+  position: relative; }
+  .closet .closet-1 {
+    width: 1000px;
+    height: 400px;
+    background: #34495e url("../img/Calculator.jpg") center center;
+    background-attachment: fixed;
+    -webkit-transform: rotate(-30deg) translateX(-250px);
+    -moz-transform: rotate(-30deg) translateX(-250px);
+    -ms-transform: rotate(-30deg) translateX(-250px);
+    -o-transform: rotate(-30deg) translateX(-250px);
+    transform: rotate(-30deg) translateX(-250px); }
+  .closet .closet-2 {
+    width: 1600px;
+    height: 700px;
+    background: #34495e url("../img/Persona Card.jpg");
+    -webkit-transform: rotate(60deg) translateX(160px) translateY(-660px);
+    -moz-transform: rotate(60deg) translateX(160px) translateY(-660px);
+    -ms-transform: rotate(60deg) translateX(160px) translateY(-660px);
+    -o-transform: rotate(60deg) translateX(160px) translateY(-660px);
+    transform: rotate(60deg) translateX(160px) translateY(-660px); }
+  .closet .closet-3 {
+    width: 1000px;
+    height: 500px;
+    background: #1abc9c url("../img/countdown card.jpg") center center;
+    -webkit-transform: rotate(60deg) translateX(-260px) translateY(-575px);
+    -moz-transform: rotate(60deg) translateX(-260px) translateY(-575px);
+    -ms-transform: rotate(60deg) translateX(-260px) translateY(-575px);
+    -o-transform: rotate(60deg) translateX(-260px) translateY(-575px);
+    transform: rotate(60deg) translateX(-260px) translateY(-575px); }
+  .closet .closet-4 {
+    width: 1200px;
+    height: 700px;
+    background: #e74c3c url("../img/Facebook Sign up page mobile.jpg");
+    -webkit-transform: rotate(60deg) translateX(-800px) translateY(500px);
+    -moz-transform: rotate(60deg) translateX(-800px) translateY(500px);
+    -ms-transform: rotate(60deg) translateX(-800px) translateY(500px);
+    -o-transform: rotate(60deg) translateX(-800px) translateY(500px);
+    transform: rotate(60deg) translateX(-800px) translateY(500px); }
+  .closet .section-menu {
+    width: 200px;
+    position: absolute;
+    top: 1000px;
+    left: 240px; }
+    .closet .section-menu ul {
+      list-style-type: none; }
+      .closet .section-menu ul li {
+        position: relative; }
+        .closet .section-menu ul li a {
+          font-size: 44px;
+          text-transform: uppercase;
+          line-height: 2; }
+          .closet .section-menu ul li a:before {
+            position: absolute;
+            content: '';
+            bottom: 0;
+            left: 0;
+            background: #34495e;
+            height: 2px;
+            width: 100%;
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+            -ms-transform: scale(0);
+            -o-transform: scale(0);
+            transform: scale(0);
+            -webkit-transform-origin: left;
+            -moz-transform-origin: left;
+            -ms-transform-origin: left;
+            -o-transform-origin: left;
+            transform-origin: left;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; }
+          .closet .section-menu ul li a:hover:before {
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -ms-transform: scale(1);
+            -o-transform: scale(1);
+            transform: scale(1); }
+    .closet .section-menu .arrow {
+      background: url("../img/arrows.png");
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 128px;
+      position: absolute;
+      left: 300px;
+      top: 550px;
+      -webkit-transform: rotate(60deg);
+      -moz-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+      -o-transform: rotate(60deg);
+      transform: rotate(60deg); }
+
+.closet-about .closet-1 {
+  width: 3000px;
+  height: 700px;
+  background: #34495e;
+  color: white;
+  -webkit-transform: rotate(-30deg) translateY(-800px);
+  -moz-transform: rotate(-30deg) translateY(-800px);
+  -ms-transform: rotate(-30deg) translateY(-800px);
+  -o-transform: rotate(-30deg) translateY(-800px);
+  transform: rotate(-30deg) translateY(-800px); }
+  .closet-about .closet-1 .card {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    -webkit-transform: rotate(30deg) translateX(-300px) translateY(300px);
+    -moz-transform: rotate(30deg) translateX(-300px) translateY(300px);
+    -ms-transform: rotate(30deg) translateX(-300px) translateY(300px);
+    -o-transform: rotate(30deg) translateX(-300px) translateY(300px);
+    transform: rotate(30deg) translateX(-300px) translateY(300px); }
+    .closet-about .closet-1 .card .card-title h1 {
+      text-transform: uppercase;
+      font-size: 32px;
+      margin-bottom: 22px;
+      text-align: center; }
+    .closet-about .closet-1 .card .card-section p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: 300; }
+    .closet-about .closet-1 .card .card-section a {
+      color: white; }
+
+.closet-portfolio .closet-1 {
+  padding-top: 40px; }
+  .closet-portfolio .closet-1 .card {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    -webkit-transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    -o-transform: translateY(-200px);
+    transform: translateY(-200px); }
+    .closet-portfolio .closet-1 .card .card-title {
+      display: block; }
+      .closet-portfolio .closet-1 .card .card-title h1 {
+        text-transform: uppercase;
+        font-size: 32px;
+        margin-bottom: 22px;
+        text-align: center; }
+    .closet-portfolio .closet-1 .card .card-grid {
+      display: block;
+      text-align: center; }
+      .closet-portfolio .closet-1 .card .card-grid ul {
+        list-style-type: none;
+        padding-top: 20px;
+        width: 300px;
+        height: 100%;
+        margin: 0 auto; }
+        .closet-portfolio .closet-1 .card .card-grid ul li {
+          font-size: 32px;
+          font-weight: 300;
+          line-height: 1.2;
+          margin-bottom: 30px;
+          position: relative;
+          overflow: hidden; }
+          .closet-portfolio .closet-1 .card .card-grid ul li a {
+            color: #7796b4; }
+            .closet-portfolio .closet-1 .card .card-grid ul li a:hover {
+              color: #34495e; }
+
+.closet-video {
+  width: 2200px;
+  height: 400px;
+  display: block;
+  background: #34495e;
+  -webkit-transform: rotate(-30deg) translateX(-250px) translateY(-250px);
+  -moz-transform: rotate(-30deg) translateX(-250px) translateY(-250px);
+  -ms-transform: rotate(-30deg) translateX(-250px) translateY(-250px);
+  -o-transform: rotate(-30deg) translateX(-250px) translateY(-250px);
+  transform: rotate(-30deg) translateX(-250px) translateY(-250px); }
+  .closet-video .card {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    -webkit-transform: rotate(30deg) translateX(20px) translateY(200px);
+    -moz-transform: rotate(30deg) translateX(20px) translateY(200px);
+    -ms-transform: rotate(30deg) translateX(20px) translateY(200px);
+    -o-transform: rotate(30deg) translateX(20px) translateY(200px);
+    transform: rotate(30deg) translateX(20px) translateY(200px); }
+    .closet-video .card a {
+      text-transform: uppercase;
+      color: white;
+      font-size: 44px;
+      line-height: 1; }
+      .closet-video .card a:hover {
+        color: #999999; }
+
+.closet-contact {
+  display: block;
+  padding-top: 300px; }
+  .closet-contact .card {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center; }
+    .closet-contact .card h1 {
+      text-transform: uppercase;
+      font-size: 44px;
+      line-height: 1; }
